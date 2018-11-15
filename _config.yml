@@ -1,9 +1,9 @@
 # ----
 # Site
 
-title: Aviator
+title: Dugong's Personalia
 description: Jekyll template for API documentation.
-url: https://example.com
+url: https://kimdugong.github.io
 google_analytics_key:
 permalink: pretty
 
@@ -28,19 +28,16 @@ exclude:
   - LICENSE
 
 defaults:
-  -
-    scope:
-      path: ""
+  - scope:
+      path: ''
     values:
       layout: default
-  -
-    scope:
-      type: "documentation"
+  - scope:
+      type: 'documentation'
     values:
       _hide_content: true
-  -
-    scope:
-      type: "api"
+  - scope:
+      type: 'api'
     values:
       _hide_content: true
 
